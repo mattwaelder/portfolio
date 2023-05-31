@@ -3,7 +3,8 @@ import "./Navbar.scss";
 
 const Navbar = () => {
   return (
-    <div className="App__navbar-container">
+    <div className="App__nav-container">
+      <h2>Matt</h2>
       <ul className="App__nav-list">
         <li>About</li>
         <li>Languages</li>
