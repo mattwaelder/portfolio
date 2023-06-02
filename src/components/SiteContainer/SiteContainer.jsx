@@ -4,12 +4,11 @@ import "./SiteContainer.scss";
 
 const SiteContianer = () => {
   return (
-    <div>
-      <h1>site container</h1>
-      <Section />
-      <Section />
-      <Section />
-      <Section />
+    <div className="App__site-container">
+      <Section title={"About"} />
+      <Section title={"Skills"} />
+      <Section title={"projects"} />
+      <Section title={"contact"} />
     </div>
   );
 };

@@ -1,10 +1,11 @@
 import React from "react";
-import "./Section";
+import "./Section.scss";
 
-const Section = () => {
+const Section = ({ title }) => {
+  console.log(title);
   return (
-    <div>
-      <h1>Section</h1>
+    <div className="App__section-container">
+      <h1>{`${title}`}</h1>
     </div>
   );
 };

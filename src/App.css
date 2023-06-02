@@ -14,14 +14,9 @@ html * {
 }
 
 .App {
-  text-align: center;
+  /* text-align: center; */
   font-size: 16px;
   background: var(--color-off-white);
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -38,7 +33,6 @@ html * {
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link {
