@@ -7,8 +7,8 @@ const SiteContianer = () => {
     <div className="App__site-container">
       <Section title={"About"} />
       <Section title={"Skills"} />
-      <Section title={"projects"} />
-      <Section title={"contact"} />
+      <Section title={"Projects"} />
+      <Section title={"Contact"} />
     </div>
   );
 };
