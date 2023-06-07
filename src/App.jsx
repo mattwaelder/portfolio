@@ -18,4 +18,7 @@ export default App;
 /*
   maybe set up menu to swap w/ css media query instead
     render both, but hide/show based on screen width
+
+
+  github and linkedin right at the top, perhaps?
 */
