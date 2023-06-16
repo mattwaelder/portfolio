@@ -1,3 +1,28 @@
 .App__skills-container {
+  align-items: center;
+  justify-content: center;
   display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  row-gap: 2em;
+
+  .App__skill-icon-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      width: 100px;
+    }
+  }
+
+  @media (max-width: 1200px) {
+    /* under 350 it should be 1 column, but size change would be preferred */
+    grid-template-columns: 1fr 1fr;
+
+    .App__skill-icon-wrapper {
+      img {
+        width: 100px;
+      }
+    }
+  }
 }

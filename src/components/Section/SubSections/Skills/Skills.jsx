@@ -28,35 +28,35 @@ import sass from "../../../../tech_icons/sass.svg";
 const Skills = () => {
   return (
     <div className="App__skills-container">
-      <div>
-        <img src={html5} width="100" alt="html logo"></img>
+      <div className="App__skill-icon-wrapper">
+        <img src={html5} alt="html logo"></img>
       </div>
-      <div>
-        <img src={css3} width="100" alt="css logo"></img>
+      <div className="App__skill-icon-wrapper">
+        <img src={css3} alt="css logo"></img>
       </div>
-      <div>
-        <img src={javascript} width="100" alt="javascript logo"></img>
+      <div className="App__skill-icon-wrapper">
+        <img src={javascript} alt="javascript logo"></img>
       </div>
-      <div>
-        <img src={react} width="100" alt="react logo"></img>
+      <div className="App__skill-icon-wrapper">
+        <img src={react} alt="react logo"></img>
       </div>
-      <div>
-        <img src={nodejs} width="100" alt="nodejs logo"></img>
+      <div className="App__skill-icon-wrapper">
+        <img src={nodejs} alt="nodejs logo"></img>
       </div>
-      <div>
-        <img src={postgresql_notext} width="100" alt="postgres logo"></img>
+      <div className="App__skill-icon-wrapper">
+        <img src={postgresql_notext} alt="postgres logo"></img>
       </div>
-      <div>
-        <img src={mongodb} width="100" alt="mongodb logo"></img>
+      <div className="App__skill-icon-wrapper">
+        <img src={mongodb} alt="mongodb logo"></img>
       </div>
-      <div>
-        <img src={sass} width="100" alt="sass logo"></img>
+      <div className="App__skill-icon-wrapper">
+        <img src={sass} alt="sass logo"></img>
       </div>
-      <div>
-        <img src={aws} width="100" alt="aws logo"></img>
+      <div className="App__skill-icon-wrapper">
+        <img src={aws} alt="aws logo"></img>
       </div>
-      <div>
-        <img src={firebase} width="100" alt="firebase logo"></img>
+      <div className="App__skill-icon-wrapper">
+        <img src={firebase} alt="firebase logo"></img>
       </div>
     </div>
   );
