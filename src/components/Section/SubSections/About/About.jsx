@@ -4,6 +4,7 @@ import "./About.scss";
 const About = () => {
   return (
     <div>
+      <img src="" alt="PICTURE OF ME.PNG"></img>
       <h3>Hello! My name is Matt Waelder and I'm a full stack developer</h3>
       <p>
         I was first drawn to software development for its use as a tool, but
