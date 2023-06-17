@@ -17,6 +17,7 @@ html * {
   /* text-align: center; */
   font-size: 16px;
   background: var(--color-off-white);
+  /* background-image: url(); */
 }
 
 @media (prefers-reduced-motion: no-preference) {

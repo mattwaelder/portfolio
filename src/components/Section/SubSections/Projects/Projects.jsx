@@ -104,3 +104,10 @@ petscale
 fec
 portfolio site?
 */
+
+/*
+Image by <a href="https://www.freepik.com/free-vector/white-abstract-background-3d-paper-style_6600343.htm#query=website%20background&position=4&from_view=search&track=ais">Freepik</a>
+
+
+<a href="https://www.freepik.com/free-vector/modern-stylish-texture-background_15678942.htm#query=website%20background&position=12&from_view=search&track=ais">Image by svstudioart</a> on Freepik
+*/
