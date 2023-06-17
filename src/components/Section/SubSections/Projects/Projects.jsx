@@ -8,7 +8,7 @@ const Projects = () => {
     <div className="App__projects-container">
       <div className="App__projects-card">
         <Card style={{ width: "18rem" }}>
-          <Card.Img variant="top" src="holder.js/100px180" />
+          <Card.Img variant="top" src="" />
           <Card.Body>
             <Card.Title>mattspigs.com</Card.Title>
             <Card.Text>
