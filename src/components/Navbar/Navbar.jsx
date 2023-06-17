@@ -8,7 +8,7 @@ const Navbar = () => {
         Matt<br></br>Waelder
       </p>
       <ul className="App__nav-list">
-        {["home", "about", "skills", "projects", "contact"].map((el) => (
+        {["About", "Skills", "Projects", "Contact"].map((el) => (
           <li>
             <a href={`#${el}`}>{el}</a>
           </li>

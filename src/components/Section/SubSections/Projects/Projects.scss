@@ -1,14 +1,47 @@
 .App__projects-container {
+  width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto;
   row-gap: 3em;
+  margin: 2em 0px;
 
   .App__projects-card {
+    width: 25vw;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+    justify-self: center;
+  }
+  .App__projects-card-element {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: none;
   }
 
-  margin: 1em 0;
+  .App__project-card-body {
+    background-image: url("../../../../project_images/rising-sun-mountains-starry-sky/1459.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center 90%;
+    color: white;
+  }
+
+  @media (max-width: 900px) {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 1em;
+    margin: 1em 0px;
+
+    .App__projects-card {
+      width: 30vw;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  @media (max-width: 500px) {
+    grid-template-columns: 1fr;
+    .App__projects-card {
+      width: 100%;
+    }
+  }
 }
