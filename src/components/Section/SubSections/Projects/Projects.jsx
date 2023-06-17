@@ -18,7 +18,7 @@ const Projects = () => {
           <Card.Body>
             <Card.Title>mattspigs.com</Card.Title>
             <Card.Text>
-              A website I created with pure html,scc, and javascript.
+              A website I created with pure html, css, and javascript.
             </Card.Text>
             <Button variant="primary">Go somewhere</Button>
           </Card.Body>
@@ -28,11 +28,8 @@ const Projects = () => {
         <Card style={{ width: "18rem" }}>
           <Card.Img variant="top" src={image_calculator} alt="project image" />
           <Card.Body>
-            <Card.Title>Card Title</Card.Title>
-            <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </Card.Text>
+            <Card.Title>React Calculator</Card.Title>
+            <Card.Text>A simple calculator created with React.</Card.Text>
             <Button variant="primary">Go somewhere</Button>
           </Card.Body>
         </Card>
@@ -41,10 +38,10 @@ const Projects = () => {
         <Card style={{ width: "18rem" }}>
           <Card.Img variant="top" src={image_assay} alt="project image" />
           <Card.Body>
-            <Card.Title>Card Title</Card.Title>
+            <Card.Title>Assay Utility</Card.Title>
             <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              A utility I created for a discord group. The utility provides
+              insight into in-game value for mining deposits.
             </Card.Text>
             <Button variant="primary">Go somewhere</Button>
           </Card.Body>
@@ -54,10 +51,10 @@ const Projects = () => {
         <Card style={{ width: "18rem" }}>
           <Card.Img variant="top" src={image_petscale} alt="project image" />
           <Card.Body>
-            <Card.Title>Card Title</Card.Title>
+            <Card.Title>PetScale</Card.Title>
             <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              A utility created for pet owners to track the weight of their pets
+              over time.
             </Card.Text>
             <Button variant="primary">Go somewhere</Button>
           </Card.Body>
@@ -67,10 +64,10 @@ const Projects = () => {
         <Card style={{ width: "18rem" }}>
           <Card.Img variant="top" src={image_sdc} alt="project image" />
           <Card.Body>
-            <Card.Title>Card Title</Card.Title>
+            <Card.Title>System Design</Card.Title>
             <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              The backend portion of a mock e-commerce website. The service is
+              designed to support 10,000+ users.
             </Card.Text>
             <Button variant="primary">Go somewhere</Button>
           </Card.Body>
@@ -80,11 +77,8 @@ const Projects = () => {
         <Card style={{ width: "18rem" }}>
           <Card.Img variant="top" src={image_fec} alt="project image" />
           <Card.Body>
-            <Card.Title>Card Title</Card.Title>
-            <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </Card.Text>
+            <Card.Title>Fresh Threadz</Card.Title>
+            <Card.Text>E-commerce front end designed with react.</Card.Text>
             <Button variant="primary">Go somewhere</Button>
           </Card.Body>
         </Card>
@@ -108,6 +102,11 @@ portfolio site?
 /*
 Image by <a href="https://www.freepik.com/free-vector/white-abstract-background-3d-paper-style_6600343.htm#query=website%20background&position=4&from_view=search&track=ais">Freepik</a>
 
-
 <a href="https://www.freepik.com/free-vector/modern-stylish-texture-background_15678942.htm#query=website%20background&position=12&from_view=search&track=ais">Image by svstudioart</a> on Freepik
+
+<a href="https://www.freepik.com/free-vector/squared-shapes-white-texture_851199.htm#page=2&query=website%20background&position=22&from_view=search&track=ais">Image by dotstudio</a> on Freepik
+
+<a href="https://www.freepik.com/free-vector/80-style-background-with-geometric-shapes_4992801.htm#page=2&query=80s%20retro&position=47&from_view=search&track=ais">Image by pikisuperstar</a> on Freepik
+
+
 */
