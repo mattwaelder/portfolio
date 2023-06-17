@@ -1,0 +1,14 @@
+.App__projects-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  row-gap: 3em;
+
+  .App__projects-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  margin: 1em 0;
+}
