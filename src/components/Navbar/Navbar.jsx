@@ -9,7 +9,7 @@ const Navbar = () => {
       </p>
       <ul className="App__nav-list">
         {["About", "Skills", "Projects", "Contact"].map((el) => (
-          <li>
+          <li className="App__nav-btn">
             <a href={`#${el}`}>{el}</a>
           </li>
         ))}
