@@ -116,4 +116,8 @@ Image by <a href="https://www.freepik.com/free-vector/white-abstract-background_
 
 <a href="https://www.freepik.com/free-vector/rising-sun-mountains-starry-sky_6538958.htm#query=space&position=1&from_view=search&track=sph">Image by GarryKillian</a> on Freepik
 
+<a href="https://www.freepik.com/free-photo/smooth-gray-concrete-wall-background_18835565.htm#query=website%20background&position=47&from_view=search&track=ais">Image by rawpixel.com</a> on Freepik
+
+<a href="https://www.freepik.com/free-vector/abstract-background-design-with-stars-gray_3528840.htm#page=2&query=website%20background&position=10&from_view=search&track=ais">Image by rawpixel.com</a> on Freepik
+
 */

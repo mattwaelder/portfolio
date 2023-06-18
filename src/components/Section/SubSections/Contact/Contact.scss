@@ -1,0 +1,27 @@
+.App__contact-container {
+  width: auto;
+  min-height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-left: 1em;
+
+  .App__contact-wrapper {
+    height: 2rem;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    // cursor: pointer;
+
+    .App__contact-icon {
+      color: var(--color-blue-3);
+    }
+
+    p {
+      margin-left: 0.5em;
+    }
+  }
+}
