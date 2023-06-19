@@ -3,7 +3,8 @@
   --color-blue-2: rgb(27, 38, 59);
   --color-blue-3: rgb(65, 90, 119);
   --color-blue-4: rgb(119, 141, 169);
-  --color-off-white: rgb(224, 225, 221);
+  --color-off-white: rgb(220, 220, 220);
+  --color-gray: rgba(180, 180, 180, 0.9);
   --color-white-transparent: rgba(250, 250, 250, 0.8);
 }
 
