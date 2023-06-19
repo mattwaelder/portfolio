@@ -26,6 +26,12 @@
     color: white;
   }
 
+  .App__project-card-btn {
+    margin-top: 10px;
+    // background-color: var(--color-off-white);
+    // border: none;
+  }
+
   @media (max-width: 900px) {
     grid-template-columns: 1fr 1fr;
     row-gap: 1em;

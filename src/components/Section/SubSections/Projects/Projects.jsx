@@ -18,9 +18,17 @@ const Projects = () => {
           <Card.Body className="App__project-card-body">
             <Card.Title>mattspigs.com</Card.Title>
             <Card.Text>
-              A website I created with pure html, css, and javascript.
+              A website I created about my guinea pigs using pure html, css, and
+              javascript.
             </Card.Text>
-            <Button variant="primary">Go somewhere</Button>
+            <Button
+              href="https://mattspigs.com"
+              target="_blank"
+              variant="light"
+              className="App__project-card-btn"
+            >
+              Visit Site
+            </Button>
           </Card.Body>
         </Card>
       </div>
@@ -29,8 +37,17 @@ const Projects = () => {
           <Card.Img variant="top" src={image_calculator} alt="project image" />
           <Card.Body className="App__project-card-body">
             <Card.Title>React Calculator</Card.Title>
-            <Card.Text>A simple calculator created with React.</Card.Text>
-            <Button variant="primary">Go somewhere</Button>
+            <Card.Text>
+              A simple calculator created with React and Javascript.
+            </Card.Text>
+            <Button
+              href="https://github.com/mattwaelder/calculator/blob/main/README.md"
+              target="_blank"
+              variant="light"
+              className="App__project-card-btn"
+            >
+              Repo
+            </Button>
           </Card.Body>
         </Card>
       </div>
@@ -40,10 +57,18 @@ const Projects = () => {
           <Card.Body className="App__project-card-body">
             <Card.Title>Assay Utility</Card.Title>
             <Card.Text>
-              A utility I created for a discord group. The utility provides
-              insight into in-game value for mining deposits.
+              A utility I created in conjunction with a discord community for
+              use within a game. This utility provides insight into whether or
+              not a certain rock is worth mining.
             </Card.Text>
-            <Button variant="primary">Go somewhere</Button>
+            <Button
+              href="https://sai.thesyndicus.org/"
+              target="_blank"
+              variant="light"
+              className="App__project-card-btn"
+            >
+              Visit Site
+            </Button>
           </Card.Body>
         </Card>
       </div>
@@ -56,7 +81,14 @@ const Projects = () => {
               A utility created for pet owners to track the weight of their pets
               over time.
             </Card.Text>
-            <Button variant="primary">Go somewhere</Button>
+            <Button
+              href="https://github.com/mattwaelder/petscale/blob/master/README.md"
+              target="_blank"
+              variant="light"
+              className="App__project-card-btn"
+            >
+              Repo
+            </Button>
           </Card.Body>
         </Card>
       </div>
@@ -69,7 +101,14 @@ const Projects = () => {
               The backend portion of a mock e-commerce website. The service is
               designed to support 10,000+ users.
             </Card.Text>
-            <Button variant="primary">Go somewhere</Button>
+            <Button
+              href="https://github.com/sdc-green-lantern/RatingsReviews-API/blob/main/README.md"
+              target="_blank"
+              variant="light"
+              className="App__project-card-btn"
+            >
+              Repo
+            </Button>
           </Card.Body>
         </Card>
       </div>
@@ -79,7 +118,14 @@ const Projects = () => {
           <Card.Body className="App__project-card-body">
             <Card.Title>Fresh Threadz</Card.Title>
             <Card.Text>E-commerce front end designed with react.</Card.Text>
-            <Button variant="primary">Go somewhere</Button>
+            <Button
+              href="https://github.com/FEC-Boy-Meets-World/rfp2207-fec/blob/main/README.md"
+              target="_blank"
+              variant="light"
+              className="App__project-card-btn"
+            >
+              Repo
+            </Button>
           </Card.Body>
         </Card>
       </div>
