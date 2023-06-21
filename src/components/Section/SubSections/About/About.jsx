@@ -1,11 +1,14 @@
 import React from "react";
+import profile_pic from "../../../../project_images/profilepic.jpeg";
 import "./About.scss";
 
 const About = () => {
   return (
-    <div>
-      <img src="" alt="PICTURE OF ME.PNG"></img>
-      <h3>Hello! My name is Matt Waelder and I'm a full stack developer</h3>
+    <div className="App__about-container">
+      <h3>
+        Hello!<br></br> My name is Matt Waelder and I'm a full stack developer
+      </h3>
+      <img src={profile_pic} alt="myself"></img>
       <p>
         I was first drawn to software development for its use as a tool, but
         soon was drawn to its creative possibility. For web design I was seeing

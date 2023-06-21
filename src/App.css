@@ -49,6 +49,7 @@ a:hover {
 
 section {
   scroll-margin-top: 120px;
+  margin: 2em 0px;
 }
 
 section:last-child {

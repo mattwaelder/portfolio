@@ -1,0 +1,61 @@
+.App__about-container {
+  // border: 1px solid blue;
+  text-align: center;
+  display: grid;
+  grid-template-areas:
+    "pic header"
+    "para para";
+
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1.5fr;
+
+  img {
+    height: 25vw;
+    width: 25vw;
+    border-radius: 50%;
+    margin: 30px;
+    grid-area: pic;
+    justify-self: center;
+  }
+
+  h3 {
+    grid-area: header;
+    align-self: center;
+    text-align: left;
+    font-size: 2em;
+  }
+
+  p {
+    font-size: 1.4em;
+    width: 80%;
+    grid-area: para;
+    justify-self: center;
+  }
+
+  @media (max-width: 1200px) {
+    // border: 1px solid red;
+    grid-template-areas:
+      "header"
+      "pic"
+      "para";
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+
+    h3 {
+      font-size: 1.5rem;
+      text-align: center;
+    }
+
+    img {
+      height: 50vw;
+      width: 50vw;
+    }
+
+    p {
+      height: 40vh;
+      width: 100%;
+      font-size: 5vw;
+      overflow: auto;
+    }
+  }
+}
