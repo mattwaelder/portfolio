@@ -6,7 +6,8 @@ const About = () => {
   return (
     <div className="App__about-container">
       <h3>
-        Hello!<br></br> My name is Matt Waelder and I'm a full stack developer
+        Hello!<br></br> My name is Matt Waelder <br></br>and I'm a full stack
+        developer
       </h3>
       <img src={profile_pic} alt="myself"></img>
       <p>
