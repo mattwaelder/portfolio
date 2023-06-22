@@ -1,6 +1,51 @@
 .App__section-container {
   width: 80%;
   height: auto;
-  min-height: 300px;
+  min-height: 200px;
   // border: 1px solid red;
+
+  h1 {
+    font-family: "Comfortaa", cursive;
+    font-weight: 500;
+    color: var(--color-blue-3);
+    // color: rgb(90, 90, 90);
+    position: absolute;
+    margin-bottom: 2rem;
+    // border: 1px solid red;
+    left: 5vw;
+
+    &:after {
+      background-image: url(../../project_images/jazz.png);
+      background-size: 300px 300px;
+      background-position: fill;
+
+      width: 300px;
+      height: 300px;
+      background-repeat: no-repeat;
+      position: absolute;
+      left: 0px;
+      top: -120px;
+      transform: rotateY(180deg) translateX(70px);
+
+      // backdrop-filter: blur(10px);
+      opacity: 0.25;
+      z-index: -1;
+      content: "";
+      // border: 1px solid red;
+
+      display: inline-block;
+
+      // width: 50px;
+      // height: 20px;
+
+      // background-image: url(../../project_images/jazz.png);
+    }
+  }
+
+  @media (max-width: 1200px) {
+    h1 {
+      font-size: 10vw;
+      margin-bottom: 8vh;
+    }
+  }
 }

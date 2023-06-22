@@ -1,11 +1,20 @@
 .App__contact-container {
   width: auto;
-  min-height: 150px;
+  min-height: 250px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: flex-start;
   margin-left: 1em;
+  padding: 100px 0px 1em 0px;
+  font-family: "Comfortaa", cursive;
+  font-size: 1.5em;
+
+  h5 {
+    font-size: 0.8em;
+    font-weight: 100;
+    margin-bottom: 1em;
+  }
 
   .App__contact-wrapper {
     height: 2rem;
@@ -14,6 +23,7 @@
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
+    margin-bottom: 0.8em;
     // cursor: pointer;
 
     .App__contact-icon {
@@ -22,6 +32,17 @@
 
     p {
       margin-left: 0.5em;
+    }
+  }
+
+  @media (max-width: 1200px) {
+    margin: 0;
+    p {
+      font-size: 5vw;
+    }
+    h5 {
+      width: 100%;
+      text-align: center;
     }
   }
 }

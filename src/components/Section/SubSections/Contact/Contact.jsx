@@ -6,13 +6,14 @@ import { MdEmail } from "react-icons/md";
 const Contact = () => {
   return (
     <div className="App__contact-container">
+      <h5>Feel free to reach out!</h5>
       <a
         href="https://www.github.com/mattwaelder"
         target="_blank"
         rel="noreferrer"
         className="App__contact-wrapper"
       >
-        <FaGithub size={30} className="App__contact-icon" />
+        <FaGithub size={35} className="App__contact-icon" />
         <p>github/mattwaelder</p>
       </a>
       <a
@@ -21,8 +22,8 @@ const Contact = () => {
         rel="noreferrer"
         className="App__contact-wrapper"
       >
-        <FaLinkedin size={30} className="App__contact-icon" />
-        <p>linkedin/in/mattwaelder</p>
+        <FaLinkedin size={35} className="App__contact-icon" />
+        <p>linkedin/mattwaelder</p>
       </a>
       <div
         href=""
@@ -30,7 +31,7 @@ const Contact = () => {
         rel="noreferrer"
         className="App__contact-wrapper"
       >
-        <MdEmail size={30} className="App__contact-icon" />
+        <MdEmail size={35} className="App__contact-icon" />
         <p>mattwaelder@gmail.com</p>
       </div>
     </div>

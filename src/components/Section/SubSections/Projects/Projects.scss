@@ -4,7 +4,10 @@
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto;
   row-gap: 3em;
-  margin: 2em 0px;
+  margin: 3em 0px;
+  padding: 100px 0px 1em 0px;
+
+  // border: 1px solid blue;
 
   .App__projects-card {
     width: 25vw;
@@ -47,7 +50,8 @@
   @media (max-width: 500px) {
     grid-template-columns: 1fr;
     .App__projects-card {
-      width: 100%;
+      width: 90%;
+      margin-bottom: 1em;
     }
   }
 }

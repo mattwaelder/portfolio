@@ -29,34 +29,34 @@ const Skills = () => {
   return (
     <div className="App__skills-container">
       <div className="App__skill-icon-wrapper">
-        <img src={html5} alt="html logo"></img>
+        <img src={html5} loading="lazy" alt="html logo"></img>
       </div>
       <div className="App__skill-icon-wrapper">
-        <img src={css3} alt="css logo"></img>
+        <img src={css3} loading="lazy" alt="css logo"></img>
       </div>
       <div className="App__skill-icon-wrapper">
-        <img src={javascript} alt="javascript logo"></img>
+        <img src={javascript} loading="lazy" alt="javascript logo"></img>
       </div>
       <div className="App__skill-icon-wrapper">
-        <img src={react} alt="react logo"></img>
+        <img src={react} loading="lazy" alt="react logo"></img>
       </div>
       <div className="App__skill-icon-wrapper">
-        <img src={nodejs} alt="nodejs logo"></img>
+        <img src={nodejs} loading="lazy" alt="nodejs logo"></img>
       </div>
       <div className="App__skill-icon-wrapper">
-        <img src={postgresql_notext} alt="postgres logo"></img>
+        <img src={postgresql_notext} loading="lazy" alt="postgres logo"></img>
       </div>
       <div className="App__skill-icon-wrapper">
-        <img src={mongodb} alt="mongodb logo"></img>
+        <img src={mongodb} loading="lazy" alt="mongodb logo"></img>
       </div>
       <div className="App__skill-icon-wrapper">
-        <img src={sass} alt="sass logo"></img>
+        <img src={sass} loading="lazy" alt="sass logo"></img>
       </div>
       <div className="App__skill-icon-wrapper">
-        <img src={aws} alt="aws logo"></img>
+        <img src={aws} loading="lazy" alt="aws logo"></img>
       </div>
       <div className="App__skill-icon-wrapper">
-        <img src={firebase} alt="firebase logo"></img>
+        <img src={firebase} loading="lazy" alt="firebase logo"></img>
       </div>
     </div>
   );

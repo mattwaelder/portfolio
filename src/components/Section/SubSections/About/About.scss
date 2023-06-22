@@ -1,7 +1,5 @@
 .App__about-container {
-  // border: 1px solid blue;
-
-  padding: 0px 1em;
+  padding: 50px 0px 1em 0px;
   text-align: center;
   display: grid;
   grid-template-areas:
@@ -12,6 +10,7 @@
   grid-template-columns: 0.6fr 1fr 1fr 0.6fr;
 
   grid-column-gap: 10px;
+  // border: 1px solid blue;
 
   img {
     height: 20vw;
@@ -32,6 +31,7 @@
     justify-content: left;
     text-align: left;
     font-size: 2em;
+    font-family: "Comfortaa", cursive;
   }
 
   p {
@@ -42,22 +42,23 @@
   }
 
   @media (max-width: 1200px) {
-    // border: 1px solid red;
     grid-template-areas:
       "header"
       "pic"
       "para";
     grid-template-columns: 1fr;
     grid-template-rows: auto;
+    padding: 80px 0px 1em 0px;
 
     h3 {
       font-size: 1.5rem;
-      text-align: center;
+      text-align: left;
     }
 
     img {
       height: 50vw;
       width: 50vw;
+      margin-top: 1em;
     }
 
     p {
