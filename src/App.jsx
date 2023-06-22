@@ -35,4 +35,11 @@ export default App;
 
 /*
   github and linkedin right at the top, perhaps?
+
+  default links are blue
+  site lagging because of the images on the project cards
+  bio paragraph is meh
+  image in bio is meh
+  the mobile menu... isnt good enough
+  change favicon and tab name
 */

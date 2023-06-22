@@ -3,6 +3,12 @@
   height: auto;
   min-height: 200px;
   // border: 1px solid red;
+  a {
+    color: black;
+  }
+  a:visited {
+    color: black;
+  }
 
   h1 {
     font-family: "Comfortaa", cursive;

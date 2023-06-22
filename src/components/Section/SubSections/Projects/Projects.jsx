@@ -1,12 +1,12 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
-import image_mattspigs from "../../../../project_images/mattspigs.png";
-import image_assay from "../../../../project_images/assay.png";
-import image_calculator from "../../../../project_images/calculator.png";
-import image_sdc from "../../../../project_images/sdc.png";
-import image_fec from "../../../../project_images/fec.png";
-import image_petscale from "../../../../project_images/petscale.png";
+import image_mattspigs from "../../../../project_images/mattspigs-sm.jpg";
+import image_assay from "../../../../project_images/assay-sm.jpg";
+import image_calculator from "../../../../project_images/calculator-sm.jpg";
+import image_sdc from "../../../../project_images/sdc-sm.jpg";
+import image_fec from "../../../../project_images/fec-sm.jpg";
+import image_petscale from "../../../../project_images/petscale-sm.jpg";
 import "./Projects.scss";
 
 const Projects = () => {
