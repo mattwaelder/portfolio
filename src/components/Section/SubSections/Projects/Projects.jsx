@@ -1,12 +1,12 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
-import image_mattspigs from "../../../../project_images/mattspigs-sm.jpg";
-import image_assay from "../../../../project_images/assay-sm.jpg";
-import image_calculator from "../../../../project_images/calculator-sm.jpg";
-import image_sdc from "../../../../project_images/sdc-sm.jpg";
-import image_fec from "../../../../project_images/fec-sm.jpg";
-import image_petscale from "../../../../project_images/petscale-sm.jpg";
+import image_mattspigs from "../../../../project_images/mattspigs-sm.webp";
+import image_assay from "../../../../project_images/assay-sm.webp";
+import image_calculator from "../../../../project_images/calculator-sm.webp";
+import image_sdc from "../../../../project_images/sdc-sm.webp";
+import image_fec from "../../../../project_images/fec-sm.webp";
+import image_petscale from "../../../../project_images/petscale-sm.webp";
 import "./Projects.scss";
 
 const Projects = () => {
@@ -14,7 +14,13 @@ const Projects = () => {
     <div className="App__projects-container">
       <div className="App__projects-card">
         <Card className="App__projects-card-element">
-          <Card.Img variant="top" src={image_mattspigs} alt="project image" />
+          <Card.Img
+            className="lazy"
+            data-mdb-lazy-src={image_mattspigs}
+            variant="top"
+            src={image_mattspigs}
+            alt="project image"
+          />
           <Card.Body className="App__project-card-body">
             <Card.Title>mattspigs.com</Card.Title>
             <Card.Text>
@@ -34,7 +40,13 @@ const Projects = () => {
       </div>
       <div className="App__projects-card">
         <Card className="App__projects-card-element">
-          <Card.Img variant="top" src={image_calculator} alt="project image" />
+          <Card.Img
+            className="lazy"
+            data-mdb-lazy-src={image_calculator}
+            variant="top"
+            src={image_calculator}
+            alt="project image"
+          />
           <Card.Body className="App__project-card-body">
             <Card.Title>React Calculator</Card.Title>
             <Card.Text>
@@ -53,7 +65,13 @@ const Projects = () => {
       </div>
       <div className="App__projects-card">
         <Card className="App__projects-card-element">
-          <Card.Img variant="top" src={image_assay} alt="project image" />
+          <Card.Img
+            className="lazy"
+            data-mdb-lazy-src={image_assay}
+            variant="top"
+            src={image_assay}
+            alt="project image"
+          />
           <Card.Body className="App__project-card-body">
             <Card.Title>Assay Utility</Card.Title>
             <Card.Text>
@@ -74,7 +92,13 @@ const Projects = () => {
       </div>
       <div className="App__projects-card">
         <Card className="App__projects-card-element">
-          <Card.Img variant="top" src={image_petscale} alt="project image" />
+          <Card.Img
+            className="lazy"
+            data-mdb-lazy-src={image_petscale}
+            variant="top"
+            src={image_petscale}
+            alt="project image"
+          />
           <Card.Body className="App__project-card-body">
             <Card.Title>PetScale</Card.Title>
             <Card.Text>
@@ -94,7 +118,13 @@ const Projects = () => {
       </div>
       <div className="App__projects-card">
         <Card className="App__projects-card-element">
-          <Card.Img variant="top" src={image_sdc} alt="project image" />
+          <Card.Img
+            className="lazy"
+            data-mdb-lazy-src={image_sdc}
+            variant="top"
+            src={image_sdc}
+            alt="project image"
+          />
           <Card.Body className="App__project-card-body">
             <Card.Title>System Design</Card.Title>
             <Card.Text>
@@ -114,7 +144,13 @@ const Projects = () => {
       </div>
       <div className="App__projects-card">
         <Card className="App__projects-card-element">
-          <Card.Img variant="top" src={image_fec} alt="project image" />
+          <Card.Img
+            className="lazy"
+            data-mdb-lazy-src={image_fec}
+            variant="top"
+            src={image_fec}
+            alt="project image"
+          />
           <Card.Body className="App__project-card-body">
             <Card.Title>Fresh Threadz</Card.Title>
             <Card.Text>E-commerce front end designed with react.</Card.Text>
