@@ -61,6 +61,34 @@ section:last-child {
   color: #61dafb;
 }
 
+footer {
+  width: 100vw;
+  height: auto;
+  background: black;
+  color: gray;
+
+  a {
+    color: gray;
+  }
+  a:active,
+  a:hover {
+    color: gray;
+  }
+  a:visited {
+    color: gray;
+  }
+
+  .App__footer-container {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    .App__citation-wrapper {
+      margin-left: 1em;
+    }
+  }
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

@@ -136,34 +136,7 @@ const Projects = () => {
 export default Projects;
 
 /*
-mattspigs.com
-calculator
-mining calculator
-sdc
-petscale
-fec
-portfolio site?
-*/
-
-/*
-Image by <a href="https://www.freepik.com/free-vector/white-abstract-background-3d-paper-style_6600343.htm#query=website%20background&position=4&from_view=search&track=ais">Freepik</a>
-
-<a href="https://www.freepik.com/free-vector/modern-stylish-texture-background_15678942.htm#query=website%20background&position=12&from_view=search&track=ais">Image by svstudioart</a> on Freepik
-
-<a href="https://www.freepik.com/free-vector/squared-shapes-white-texture_851199.htm#page=2&query=website%20background&position=22&from_view=search&track=ais">Image by dotstudio</a> on Freepik
-
-<a href="https://www.freepik.com/free-vector/80-style-background-with-geometric-shapes_4992801.htm#page=2&query=80s%20retro&position=47&from_view=search&track=ais">Image by pikisuperstar</a> on Freepik
-
-Image by <a href="https://www.freepik.com/free-vector/white-abstract-background_12066108.htm#page=2&query=website%20background&position=29&from_view=search&track=ais">Freepik</a>
-
-<a href="https://www.freepik.com/free-vector/dark-polygonal-background_6076273.htm#page=3&query=background&position=29&from_view=search&track=sph">Image by vector_corp</a> on Freepik
-
-<a href="https://www.freepik.com/free-vector/white-grunge-distressed-texture-vector_3782075.htm#page=9&query=background&position=47&from_view=search&track=sph">Image by rawpixel.com</a> on Freepik
-
 <a href="https://www.freepik.com/free-vector/rising-sun-mountains-starry-sky_6538958.htm#query=space&position=1&from_view=search&track=sph">Image by GarryKillian</a> on Freepik
 
-<a href="https://www.freepik.com/free-photo/smooth-gray-concrete-wall-background_18835565.htm#query=website%20background&position=47&from_view=search&track=ais">Image by rawpixel.com</a> on Freepik
-
 <a href="https://www.freepik.com/free-vector/abstract-background-design-with-stars-gray_3528840.htm#page=2&query=website%20background&position=10&from_view=search&track=ais">Image by rawpixel.com</a> on Freepik
-
 */
