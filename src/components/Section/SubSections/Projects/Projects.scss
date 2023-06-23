@@ -28,6 +28,12 @@
     color: white;
   }
 
+  .App__card-btn-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
   .App__project-card-btn {
     margin-top: 10px;
     // background-color: var(--color-off-white);

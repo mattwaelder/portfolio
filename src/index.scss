@@ -8,6 +8,11 @@ body {
   background-image: url("./project_images/abstract-background-design-with-stars-gray_dark/64036.jpg");
 
   background-position: center;
+  @media (max-width: 1200px) {
+    background-repeat: repeat;
+    background-position: top;
+    background-size: 400%;
+  }
 }
 
 code {

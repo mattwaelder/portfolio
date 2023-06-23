@@ -27,14 +27,24 @@ const Projects = () => {
               A website I created about my guinea pigs using pure html, css, and
               javascript.
             </Card.Text>
-            <Button
-              href="https://mattspigs.com"
-              target="_blank"
-              variant="light"
-              className="App__project-card-btn"
-            >
-              Visit Site
-            </Button>
+            <div className="App__card-btn-wrapper">
+              <Button
+                href="https://github.com/mattwaelder/mattspigs/blob/readme/README.md"
+                target="_blank"
+                variant="light"
+                className="App__project-card-btn"
+              >
+                Read Me
+              </Button>
+              <Button
+                href="https://mattspigs.com"
+                target="_blank"
+                variant="light"
+                className="App__project-card-btn"
+              >
+                Visit Site
+              </Button>
+            </div>
           </Card.Body>
         </Card>
       </div>
@@ -52,14 +62,24 @@ const Projects = () => {
             <Card.Text>
               A simple calculator created with React and Javascript.
             </Card.Text>
-            <Button
-              href="https://github.com/mattwaelder/calculator/blob/main/README.md"
-              target="_blank"
-              variant="light"
-              className="App__project-card-btn"
-            >
-              Repo
-            </Button>
+            <div className="App__card-btn-wrapper">
+              <Button
+                href="https://github.com/mattwaelder/calculator/blob/readme/README.md"
+                target="_blank"
+                variant="light"
+                className="App__project-card-btn"
+              >
+                Read Me
+              </Button>
+              <Button
+                href="https://reactcalc-mw.netlify.app/"
+                target="_blank"
+                variant="light"
+                className="App__project-card-btn"
+              >
+                Visit Site
+              </Button>
+            </div>
           </Card.Body>
         </Card>
       </div>
@@ -79,14 +99,24 @@ const Projects = () => {
               use within a game. This utility provides insight into whether or
               not a certain rock is worth mining.
             </Card.Text>
-            <Button
-              href="https://sai.thesyndicus.org/"
-              target="_blank"
-              variant="light"
-              className="App__project-card-btn"
-            >
-              Visit Site
-            </Button>
+            <div className="App__card-btn-wrapper">
+              <Button
+                href="https://github.com/mattwaelder/sc-deposit-calculator/blob/readme/README.md"
+                target="_blank"
+                variant="light"
+                className="App__project-card-btn"
+              >
+                Read Me
+              </Button>
+              <Button
+                href="https://sai.thesyndicus.org/"
+                target="_blank"
+                variant="light"
+                className="App__project-card-btn"
+              >
+                Visit Site
+              </Button>
+            </div>
           </Card.Body>
         </Card>
       </div>
@@ -105,14 +135,16 @@ const Projects = () => {
               A utility created for pet owners to track the weight of their pets
               over time.
             </Card.Text>
-            <Button
-              href="https://github.com/mattwaelder/petscale/blob/master/README.md"
-              target="_blank"
-              variant="light"
-              className="App__project-card-btn"
-            >
-              Repo
-            </Button>
+            <div className="App__card-btn-wrapper">
+              <Button
+                href="https://github.com/mattwaelder/petscale/blob/master/README.md"
+                target="_blank"
+                variant="light"
+                className="App__project-card-btn"
+              >
+                Read Me
+              </Button>
+            </div>
           </Card.Body>
         </Card>
       </div>
@@ -131,14 +163,16 @@ const Projects = () => {
               The backend portion of a mock e-commerce website. The service is
               designed to support 10,000+ users.
             </Card.Text>
-            <Button
-              href="https://github.com/sdc-green-lantern/RatingsReviews-API/blob/main/README.md"
-              target="_blank"
-              variant="light"
-              className="App__project-card-btn"
-            >
-              Repo
-            </Button>
+            <div className="App__card-btn-wrapper">
+              <Button
+                href="https://github.com/sdc-green-lantern/RatingsReviews-API/blob/main/README.md"
+                target="_blank"
+                variant="light"
+                className="App__project-card-btn"
+              >
+                Read Me
+              </Button>
+            </div>
           </Card.Body>
         </Card>
       </div>
@@ -154,14 +188,16 @@ const Projects = () => {
           <Card.Body className="App__project-card-body">
             <Card.Title>Fresh Threadz</Card.Title>
             <Card.Text>E-commerce front end designed with react.</Card.Text>
-            <Button
-              href="https://github.com/FEC-Boy-Meets-World/rfp2207-fec/blob/main/README.md"
-              target="_blank"
-              variant="light"
-              className="App__project-card-btn"
-            >
-              Repo
-            </Button>
+            <div className="App__card-btn-wrapper">
+              <Button
+                href="https://github.com/FEC-Boy-Meets-World/rfp2207-fec/blob/main/README.md"
+                target="_blank"
+                variant="light"
+                className="App__project-card-btn"
+              >
+                Read Me
+              </Button>
+            </div>
           </Card.Body>
         </Card>
       </div>

@@ -40,14 +40,15 @@
     }
 
     .App__mobile-menu-container {
-      height: 50vh;
+      height: 40vh;
       width: 50vw;
-      background: var(--color-off-white);
+      // background: var(--color-off-white);
+      background: var(--color-blue-5);
       position: fixed;
       right: 0;
       top: 0;
       transform: translateX(80vw);
-      transition: 300ms ease-in-out;
+      transition: 200ms ease-out;
       display: flex;
       flex-direction: column;
       justify-content: flex-end;
@@ -65,6 +66,7 @@
         z-index: 5;
         list-style: none;
         // border: 1px solid blue;
+        text-transform: uppercase;
       }
       .App__nav-btn-mobile {
         height: 60%;
@@ -75,15 +77,21 @@
         text-align: right;
         justify-content: right;
         font-family: "Comfortaa", cursive;
-        color: var(--color-blue-3);
-
+        font-weight: 700;
+        // color: var(--color-blue-3);
+        color: white;
         border-bottom: 3px solid var(--color-blue-3);
+        &:first-child {
+          border-top: 3px solid var(--color-blue-3);
+        }
       }
       .light {
         // background: rgb(210, 210, 210);
+        background: var(--color-blue-4);
       }
       .dark {
-        background: rgb(230, 230, 230);
+        background: var(--color-blue-5);
+        // background: var(--color-purple-5);
       }
     }
 
@@ -161,60 +169,6 @@
     }
   }
 }
-
-// .App__nav-list {
-//   width: 60%;
-//   height: 100%;
-
-//   display: flex;
-//   flex-direction: row;
-//   justify-content: space-around;
-//   align-items: center;
-
-//   text-decoration: none;
-//   list-style: none;
-
-//   text-transform: uppercase;
-
-//   .App__nav-btn {
-//     border-radius: 6px;
-//     background: var(--color-blue-3);
-//     transition: 200ms ease-in-out;
-//     border: 2px solid rgba(0, 0, 0, 0);
-//     padding: 0px 5px;
-//   }
-
-//   .App__nav-btn:hover {
-//     transition: 200ms ease-out;
-//     background: var(--color-off-white);
-//     border: 2px solid var(--color-blue-3);
-//     // transform: scale(1);
-//   }
-
-//   a {
-//     width: 120px;
-//     height: 50px;
-
-//     text-decoration: none;
-//     font-weight: 500;
-//     color: var(--color-off-white);
-//     cursor: pointer;
-
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-//     transition: 200ms ease-in-out;
-
-//     &:visited {
-//       color: var(--color-off-white);
-//     }
-
-//     a:hover,
-//     &:visited:hover {
-//       color: var(--color-blue-3);
-//     }
-//   }
-// }
 .App__nav-name-logo {
   font-family: "Comfortaa", cursive;
   font-weight: 700;
