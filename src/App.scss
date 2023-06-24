@@ -31,6 +31,9 @@ a:hover {
   /* text-align: center; */
   font-size: 16px;
   /* background: var(--color-off-white); */
+  @media (min-width: 3000px) {
+    font-size: 32px;
+  }
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -50,8 +53,11 @@ a:hover {
 }
 
 section {
-  scroll-margin-top: 120px;
+  scroll-margin-top: 8em;
   margin: 2em 0px;
+  &:first-child {
+    margin-top: 5em;
+  }
 }
 
 section:last-child {

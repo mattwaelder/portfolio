@@ -15,11 +15,11 @@ const About = () => {
         just fun. I got into software development a few years ago, but because
         of how much I enjoyed it I've decided that this is the place for me; and
         I'm making a career out of it! I've been working with Javascript for a
-        few years now, and in 2022 I graduated from
-        <i>Hack Reactor</i>. Since graduating I've been building applications in
-        my spare time while continuing to work and apply for developer roles. If
-        you've got recommendations for technologies, suggestions for my apps, or
-        are someone who's hiring for an engineering position, lets have a chat!
+        few years now, and in 2022 I graduated from <i>Hack Reactor</i>. Since
+        graduating I've been building applications in my spare time while
+        continuing to work and apply for developer roles. If you've got
+        recommendations for technologies, suggestions for my apps, or are
+        someone who's hiring for an engineering position, lets have a chat!
       </p>
     </div>
   );

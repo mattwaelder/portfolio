@@ -17,6 +17,8 @@
   .App__projects-card-element {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     border: none;
+    width: 100%;
+    height: 100%;
   }
 
   .App__project-card-body {
@@ -26,6 +28,9 @@
     background-position: center 90%;
     background-size: 80%;
     color: white;
+    .card-text {
+      margin-bottom: 2.5em;
+    }
   }
 
   .App__card-btn-wrapper {
@@ -33,11 +38,22 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    position: absolute;
+    left: 0;
+    bottom: 0.5em;
   }
   .App__project-card-btn {
-    margin-top: 10px;
     // background-color: var(--color-off-white);
     // border: none;
+    height: 2.5em;
+    width: 6em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @media (min-width: 3000px) {
+      padding: 8px;
+      font-size: 1em;
+    }
   }
 
   @media (max-width: 900px) {

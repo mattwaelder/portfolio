@@ -13,14 +13,14 @@
   // border: 1px solid blue;
 
   img {
-    height: 20vw;
-    width: 20vw;
+    height: 22vw;
+    width: 22vw;
     max-height: 350px;
     max-width: 350px;
 
     border: 3px solid var(--color-blue-3);
     border-radius: 50%;
-    margin: 30px 0px;
+    margin: 0px 0px 30px 0px;
     grid-area: pic;
     justify-self: center;
   }
@@ -39,6 +39,18 @@
     width: 80%;
     grid-area: para;
     justify-self: center;
+  }
+
+  @media (min-width: 3000px) {
+    grid-template-areas:
+      ". pic header. "
+      "para para para para";
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    // img {
+    //   height: 30vw;
+    //   width: 30vw;
+    // }
   }
 
   @media (max-width: 1200px) {
