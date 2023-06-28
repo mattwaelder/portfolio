@@ -1,12 +1,22 @@
 import React from "react";
 import "./Contact.scss";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { MdEmail } from "react-icons/md";
+import { MdEmail, MdArticle } from "react-icons/md";
+// import { BiSolidFilePdf } from "react-icons/bi";
 
 const Contact = () => {
   return (
     <div className="App__contact-container">
       <h5>Feel free to reach out!</h5>
+      <a
+        href="https://drive.google.com/file/d/10hHcnsx72rvi8HIgbpskBI3ZFYDHsACz/view?usp=sharing"
+        target="_blank"
+        rel="noreferrer"
+        className="App__contact-wrapper"
+      >
+        <MdArticle size={35} className="App__contact-icon" />
+        <p>Resume</p>
+      </a>
       <a
         href="https://www.github.com/mattwaelder"
         target="_blank"
