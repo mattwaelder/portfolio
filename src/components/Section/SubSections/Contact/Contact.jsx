@@ -15,7 +15,7 @@ const Contact = () => {
         className="App__contact-wrapper"
       >
         <MdArticle size={35} className="App__contact-icon" />
-        <p>Resume</p>
+        <p>My Resume</p>
       </a>
       <a
         href="https://www.github.com/mattwaelder"

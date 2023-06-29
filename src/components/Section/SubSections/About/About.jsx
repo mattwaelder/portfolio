@@ -6,20 +6,21 @@ const About = () => {
   return (
     <div className="App__about-container">
       <h3>
-        Hello!<br></br> I'm Matt Waelder <br></br>and I'm a full-stack developer
+        Hello!<br></br> I'm Matt Waelder, <br></br>a full-stack developer
       </h3>
       <img src={profile_pic} alt="myself"></img>
       <p>
         I'm someone who's always loved the process of building, whether that's
-        building a nice looking application or an efficient data pipeline, it's
-        just fun. I got into software development a few years ago, but because
-        of how much I enjoyed it I've decided that this is the place for me; and
-        I'm making a career out of it! I've been working with Javascript for a
-        few years now, and in 2022 I graduated from <i>Hack Reactor</i>. Since
-        graduating I've been building applications in my spare time while
-        continuing to work and apply for developer roles. If you've got
-        recommendations for technologies, suggestions for my apps, or are
-        someone who's hiring for an engineering position, lets have a chat!
+        building a nice looking application, an efficient data pipeline, or
+        something more physical; it's just fun. I first got into coding a few
+        years ago, and because of how much I enjoy it I've decided to pursue a
+        career in software engineering! After getting the fundamentals of
+        Javascript down I decided to take the big leap, and in 2022 I graduated
+        from <i>Hack Reactor</i>. Since graduating I've been building
+        applications in my spare time while continuing to work and apply for
+        developer roles. If you've got recommendations for technologies,
+        suggestions for my apps, or are someone who's hiring for an engineering
+        position, let's have a chat!
       </p>
     </div>
   );
