@@ -1,18 +1,6 @@
 import React from "react";
 import "./Skills.scss";
-// import {
-//   aws,
-//   css3,
-//   firebase,
-//   html5,
-//   javascript,
-//   mongodb,
-//   nodejs,
-//   postgresql_notext,
-//   postgresql,
-//   react,
-//   sass,
-// } from "../../../../tech_icons";
+
 import html5 from "../../../../tech_icons/html5.svg";
 import css3 from "../../../../tech_icons/css3.svg";
 import firebase from "../../../../tech_icons/firebase.svg";
@@ -21,7 +9,6 @@ import javascript from "../../../../tech_icons/javascript.svg";
 import mongodb from "../../../../tech_icons/mongodb.svg";
 import nodejs from "../../../../tech_icons/nodejs.svg";
 import postgresql_notext from "../../../../tech_icons/postgresql_notext.svg";
-import postgresql from "../../../../tech_icons/postgresql.svg";
 import react from "../../../../tech_icons/react.svg";
 import sass from "../../../../tech_icons/sass.svg";
 import nginx from "../../../../tech_icons/nginx.svg";
