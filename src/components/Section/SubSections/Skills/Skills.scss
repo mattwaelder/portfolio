@@ -3,9 +3,9 @@
   justify-content: center;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  row-gap: 1em;
+  grid-gap: 2em;
   min-height: 400px;
-  padding: 5em 0px 1em 0px;
+  padding: 6em 0px 1em 0px;
 
   .App__skill-icon-wrapper {
     display: flex;
