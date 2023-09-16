@@ -1,5 +1,5 @@
 import React from "react";
-import profile_pic from "../../../../project_images/profilepic1.png";
+import profile_pic from "../../../../project_images/profilepic1.webp";
 import "./About.scss";
 
 const About = () => {

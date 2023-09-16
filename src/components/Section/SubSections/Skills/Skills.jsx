@@ -24,6 +24,8 @@ import postgresql_notext from "../../../../tech_icons/postgresql_notext.svg";
 import postgresql from "../../../../tech_icons/postgresql.svg";
 import react from "../../../../tech_icons/react.svg";
 import sass from "../../../../tech_icons/sass.svg";
+import nginx from "../../../../tech_icons/nginx.svg";
+import bootstrap from "../../../../tech_icons/bootstrap.svg";
 
 const Skills = () => {
   return (
@@ -57,6 +59,12 @@ const Skills = () => {
       </div>
       <div className="App__skill-icon-wrapper">
         <img src={firebase} loading="lazy" alt="firebase logo"></img>
+      </div>
+      <div className="App__skill-icon-wrapper">
+        <img src={nginx} loading="lazy" alt="css logo"></img>
+      </div>
+      <div className="App__skill-icon-wrapper">
+        <img src={bootstrap} loading="lazy" alt="css logo"></img>
       </div>
     </div>
   );

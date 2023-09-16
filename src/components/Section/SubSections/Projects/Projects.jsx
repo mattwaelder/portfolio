@@ -7,6 +7,7 @@ import image_calculator from "../../../../project_images/calculator-sm.webp";
 import image_sdc from "../../../../project_images/sdc-sm.webp";
 import image_fec from "../../../../project_images/fec-sm.webp";
 import image_petscale from "../../../../project_images/petscale-sm.webp";
+import image_communitycrossing from "../../../../project_images/communitycrossing-sm.webp";
 import "./Projects.scss";
 
 const Projects = () => {
@@ -52,6 +53,34 @@ const Projects = () => {
         <Card className="App__projects-card-element">
           <Card.Img
             className="lazy"
+            data-mdb-lazy-src={image_communitycrossing}
+            variant="top"
+            src={image_communitycrossing}
+            alt="project image"
+          />
+          <Card.Body className="App__project-card-body">
+            <Card.Title>Community Crossing</Card.Title>
+            <Card.Text>
+              Fully-featured social media application build with 6 other
+              developers in one week.
+            </Card.Text>
+            <div className="App__card-btn-wrapper">
+              <Button
+                href="https://github.com/blue-ocean-luigi/front-end/blob/main/README.md"
+                target="_blank"
+                variant="light"
+                className="App__project-card-btn"
+              >
+                Read Me
+              </Button>
+            </div>
+          </Card.Body>
+        </Card>
+      </div>
+      <div className="App__projects-card">
+        <Card className="App__projects-card-element">
+          <Card.Img
+            className="lazy"
             data-mdb-lazy-src={image_calculator}
             variant="top"
             src={image_calculator}
@@ -60,7 +89,7 @@ const Projects = () => {
           <Card.Body className="App__project-card-body">
             <Card.Title>React Calculator</Card.Title>
             <Card.Text>
-              A simple calculator created with React and Javascript.
+              A "simple" calculator created with React and Javascript.
             </Card.Text>
             <div className="App__card-btn-wrapper">
               <Button
@@ -133,7 +162,8 @@ const Projects = () => {
             <Card.Title>PetScale</Card.Title>
             <Card.Text>
               A utility created for pet owners to track the weight of their pets
-              over time.
+              over time. This application is hosted on AWS utilizing an nginx
+              reverse proxy and relies on mongo for the database.
             </Card.Text>
             <div className="App__card-btn-wrapper">
               <Button
@@ -143,6 +173,14 @@ const Projects = () => {
                 className="App__project-card-btn"
               >
                 Read Me
+              </Button>
+              <Button
+                href="https://petscale.xyz"
+                target="_blank"
+                variant="light"
+                className="App__project-card-btn"
+              >
+                Visit Site
               </Button>
             </div>
           </Card.Body>
