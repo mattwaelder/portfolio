@@ -9,7 +9,7 @@ const Contact = () => {
     <div className="App__contact-container">
       <h5>Feel free to reach out!</h5>
       <a
-        href="https://drive.google.com/file/d/10hHcnsx72rvi8HIgbpskBI3ZFYDHsACz/view?usp=sharing"
+        href="https://drive.google.com/file/d/18VZdWOHJHeOYpzLMNm1bmPphCwqny-UI/view?usp=sharing"
         target="_blank"
         rel="noreferrer"
         className="App__contact-wrapper"
