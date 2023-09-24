@@ -43,8 +43,8 @@
     .App__mobile-menu-container {
       height: 40vh;
       width: 50vw;
-      // background: var(--color-off-white);
-      background: var(--color-blue-5);
+      background: rgb(240, 240, 240);
+      // background: var(--color-blue-5);
       position: fixed;
       right: 0;
       top: 0;
@@ -80,18 +80,21 @@
         font-family: "Comfortaa", cursive;
         font-weight: 700;
         // color: var(--color-blue-3);
-        color: white;
-        border-bottom: 3px solid var(--color-blue-3);
+        color: var(--color-blue-3);
+        border-bottom: 1px solid var(--color-blue-3);
         &:first-child {
-          border-top: 3px solid var(--color-blue-3);
+          border-top: 2px solid var(--color-blue-3);
         }
       }
       .light {
         // background: rgb(210, 210, 210);
-        background: var(--color-blue-4);
+        // background: var(--color-blue-4);
+        background: rgb(240, 240, 240);
       }
       .dark {
-        background: var(--color-blue-5);
+        background: rgb(240, 240, 240);
+
+        // background: var(--color-blue-5);
         // background: var(--color-purple-5);
       }
     }
