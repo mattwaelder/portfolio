@@ -13,6 +13,7 @@ import react from "../../../../tech_icons/react.svg";
 import sass from "../../../../tech_icons/sass.svg";
 import nginx from "../../../../tech_icons/nginx.svg";
 import bootstrap from "../../../../tech_icons/bootstrap.svg";
+import typescript from "../../../../tech_icons/typescript.svg";
 
 const Skills = () => {
   return (
@@ -25,6 +26,9 @@ const Skills = () => {
       </div>
       <div className="App__skill-icon-wrapper">
         <img src={javascript} loading="lazy" alt="javascript logo"></img>
+      </div>
+      <div className="App__skill-icon-wrapper">
+        <img src={typescript} loading="lazy" alt="typescript logo"></img>
       </div>
       <div className="App__skill-icon-wrapper">
         <img src={react} loading="lazy" alt="react logo"></img>
@@ -48,10 +52,10 @@ const Skills = () => {
         <img src={firebase} loading="lazy" alt="firebase logo"></img>
       </div>
       <div className="App__skill-icon-wrapper">
-        <img src={nginx} loading="lazy" alt="css logo"></img>
+        <img src={nginx} loading="lazy" alt="nginx logo"></img>
       </div>
       <div className="App__skill-icon-wrapper">
-        <img src={bootstrap} loading="lazy" alt="css logo"></img>
+        <img src={bootstrap} loading="lazy" alt="bootstrap logo"></img>
       </div>
     </div>
   );

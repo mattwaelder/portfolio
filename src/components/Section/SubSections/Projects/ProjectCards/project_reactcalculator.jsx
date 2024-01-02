@@ -18,7 +18,9 @@ const ProjectReactcalCulator = () => {
         <Card.Body className="App__project-card-body">
           <Card.Title>React Calculator</Card.Title>
           <Card.Text>
-            A "simple" calculator created with React and Javascript.
+            A "simple" calculator created with React and Javascript. There's a
+            lot I didn't know about calculators until trying to make one myself,
+            it's deceptively complex.
           </Card.Text>
           <div className="App__card-btn-wrapper">
             <Button

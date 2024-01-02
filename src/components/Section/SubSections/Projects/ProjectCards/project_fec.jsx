@@ -17,7 +17,10 @@ const ProjectFec = () => {
         />
         <Card.Body className="App__project-card-body">
           <Card.Title>Fresh Threadz</Card.Title>
-          <Card.Text>E-commerce front end designed with react.</Card.Text>
+          <Card.Text>
+            E-commerce front end built with React. This was built with a team of
+            engineers; I was in charge of the reviews component.
+          </Card.Text>
           <div className="App__card-btn-wrapper">
             <Button
               href="https://github.com/FEC-Boy-Meets-World/rfp2207-fec/blob/main/README.md"

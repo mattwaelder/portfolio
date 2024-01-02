@@ -8,6 +8,7 @@ import ProjectMattspigs from "./ProjectCards/project_mattspigs.jsx";
 import ProjectPetscale from "./ProjectCards/project_petscale.jsx";
 import ProjectReactCalculator from "./ProjectCards/project_reactcalculator.jsx";
 import ProjectSdc from "./ProjectCards/project_sdc.jsx";
+import ProjectTsHangman from "./ProjectCards/project_hangman.jsx";
 
 const Projects = () => {
   return (
@@ -19,6 +20,7 @@ const Projects = () => {
       <ProjectFec />
       <ProjectSdc />
       <ProjectReactCalculator />
+      <ProjectTsHangman />
     </div>
   );
 };
