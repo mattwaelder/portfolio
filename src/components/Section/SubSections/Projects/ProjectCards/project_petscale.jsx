@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
-import image_petscale from "../../../../../project_images/petscale-sm.webp";
+import image_petscale from "../../../../../project_images/petscale-new-sm.webp";
 import "../Projects.scss";
 
 const ProjectPetscale = () => {
